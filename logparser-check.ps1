@@ -6,7 +6,8 @@ Write-Host "Checking for the Logparser.exe on local path..." -NoNewline
 Start-Sleep -Seconds 2
 If(Test-Path -Path Logparser.exe){
 Write-Host "[   OK   ]" -ForegroundColor Green
-} Else {
+} 
+Else {
 Write-Host "[ Failed ]" -ForegroundColor Red
 Write-Host " "
 Write-Host " "
