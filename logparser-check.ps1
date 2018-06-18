@@ -1,4 +1,6 @@
 # =======================
+# Original code from
+# https://gallery.technet.microsoft.com/office/Query-IIS-Logs-using-fa66667f
 Write-Host " "
 Write-Host " "
 Write-Host "Checking for the Logparser.exe on local path..." -NoNewline
