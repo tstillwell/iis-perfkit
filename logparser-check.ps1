@@ -1,4 +1,5 @@
 # =======================
+# Check if Logparser executable accessible in directory
 # Original code from
 # https://gallery.technet.microsoft.com/office/Query-IIS-Logs-using-fa66667f
 Write-Host " "
