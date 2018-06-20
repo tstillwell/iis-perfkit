@@ -1,6 +1,5 @@
 -- Top 25 File Types
-
-    SELECT TOP 25 
+SELECT TOP 25 
     EXTRACT_EXTENSION(cs-uri-stem) As Extension, 
     COUNT(*) As Hits 
 FROM c:\inetpub\logs\LogFiles\W3SVC1\* 
