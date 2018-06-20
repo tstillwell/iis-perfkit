@@ -1,4 +1,4 @@
-N--umber of hits per Method (GET, POST, etc) 	
+--Number of hits per Method (GET, POST, etc) 	
 SELECT 
     cs-method As Method, 
     COUNT(*) As Hits 
