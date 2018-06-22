@@ -1,6 +1,5 @@
 -- Number of Hits per Client IP, including a Reverse DNS lookup (SLOW)
-
- 	SELECT c-ip As Machine, 
+SELECT c-ip As Machine, 
     REVERSEDNS(c-ip) As Name, 
     COUNT(*) As Hits 
  FROM c:\inetpub\logs\LogFiles\W3SVC1\* 
