@@ -6,6 +6,6 @@ FROM c:\inetpub\logs\LogFiles\W3SVC1\*
 GROUP BY Machine ORDER BY Hits DESC
 
 -- Machine      Name            Hits
--- ::1 	        CARLOSAGDEV      57
+-- ::1          CARLOSAGDEV      57
 -- 127.0.0.1    MACHINE1         28
 -- 27.X.X.X     MACHINE2          1
