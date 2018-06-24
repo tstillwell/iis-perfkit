@@ -1,4 +1,1 @@
-GET-ChildItem parser-scripts | ForEach-Object 
-{
-  Start-Process -FilePath ".\LogParser.exe" 
-}
+GET-ChildItem parser-scripts | ForEach-Object {Start-Process -FilePath ".\Logparser.exe" -NoNewWindow}
