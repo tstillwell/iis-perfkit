@@ -1,4 +1,5 @@
 GET-ChildItem parser-scripts |
   ForEach-Object { # run logparser with each script
-    Start-Process -FilePath ".\Logparser.exe" -NoNewWindow
+    $cmdargs = "-i IISW3C file:parser-scripts/$_"
+    Start-Process -FilePath ".\Logparser.exe " -ArgumentList "$cmdargs" -NoNewWindow
   }
