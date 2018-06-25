@@ -3,6 +3,14 @@
 Uses logparser tool to automatically retrieve IIS webserver
 performance information.
 
+In powershell, run
+
+`
+perfkit.ps1
+`
+
+to run all queries in parser-scripts
+
 ## Logparser tutorials ##
 
 http://linuxlore.blogspot.com/2006/11/howto-use-microsofts-logparser-to.html
