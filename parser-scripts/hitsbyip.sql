@@ -2,7 +2,7 @@
 SELECT c-ip As Machine, 
     REVERSEDNS(c-ip) As Name, 
     COUNT(*) As Hits 
-FROM c:\inetpub\logs\LogFiles\W3SVC1\* 
+FROM %log_path%
 GROUP BY Machine ORDER BY Hits DESC
 
 -- Machine      Name            Hits
