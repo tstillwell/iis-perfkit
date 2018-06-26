@@ -2,7 +2,7 @@
 SELECT 
     cs-method As Method, 
     COUNT(*) As Hits 
-FROM c:\inetpub\logs\LogFiles\W3SVC1\* 
+FROM %log_path%
 GROUP BY Method 
 --  Method    Hits
 --  GET       133566
