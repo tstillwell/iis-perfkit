@@ -2,7 +2,7 @@
 SELECT 
     cs(User-Agent) As UserAgent, 
     COUNT(*) as Hits 
-FROM c:\inetpub\logs\LogFiles\W3SVC1\* 
+FROM %log_path% 
 GROUP BY UserAgent 
 ORDER BY Hits DESC 	
 --  UserAgent   Hits
