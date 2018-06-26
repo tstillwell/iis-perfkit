@@ -2,7 +2,7 @@
 SELECT 
     QUANTIZE(TO_LOCALTIME(TO_TIMESTAMP(date, time)), 3600) AS Hour, 
     COUNT(*) AS Hits 
-FROM c:\inetpub\logs\LogFiles\W3SVC1\* 
+FROM %log_path%
 WHERE date>'2010-03-01' and date<'2010-04-01' 
 Group By Hour 
 --  Date         Hour        Hits
