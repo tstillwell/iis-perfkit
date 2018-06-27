@@ -2,7 +2,7 @@
 SELECT TOP 25 
     EXTRACT_EXTENSION(cs-uri-stem) As Extension, 
     COUNT(*) As Hits 
-FROM c:\inetpub\logs\LogFiles\W3SVC1\* 
+FROM %log_path%
 GROUP BY Extension 
 ORDER BY Hits DESC 	
 --  Extension   Hits
