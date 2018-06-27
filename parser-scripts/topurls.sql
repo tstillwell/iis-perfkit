@@ -2,7 +2,7 @@
 SELECT TOP 25 
     cs-uri-stem as Url, 
     COUNT(*) As Hits 
-FROM c:\inetpub\logs\LogFiles\W3SVC1\* 
+FROM %log_path%
 GROUP BY cs-uri-stem 
 ORDER By Hits DESC 	
 --  Url       Hits
