@@ -4,7 +4,7 @@ SELECT TOP 25
     MAX(time-taken) As Max, 
     MIN(time-taken) As Min, 
     Avg(time-taken) As Average 
-FROM c:\inetpub\logs\LogFiles\W3SVC1\* 
+FROM %log_path%
 GROUP BY URL 
 ORDER By Average DESC 	
 --  URL                        Max     Min   Average
