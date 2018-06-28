@@ -1,4 +1,4 @@
---  Number of hits per hour for the month of March
+-- Number of hits per hour for the month of March
 SELECT 
     QUANTIZE(TO_LOCALTIME(TO_TIMESTAMP(date, time)), 3600) AS Hour, 
     COUNT(*) AS Hits 
