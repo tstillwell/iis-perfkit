@@ -1,7 +1,6 @@
 # iis-perfkit
 
-Uses logparser tool to automatically retrieve IIS webserver
-performance information.
+Runs multiple iis logparser queries at once.
 
 Requires the logparser tool. Download here
 
