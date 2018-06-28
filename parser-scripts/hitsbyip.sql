@@ -4,7 +4,6 @@ SELECT c-ip As Machine,
     COUNT(*) As Hits 
 FROM %log_path%
 GROUP BY Machine ORDER BY Hits DESC
-
 -- Machine      Name            Hits
 -- ::1          CARLOSAGDEV      57
 -- 127.0.0.1    MACHINE1         28
