@@ -19,6 +19,12 @@ to run all queries in parser-scripts
 Change the `$log_path` value in `perfkit.ps1`
 to point to the logs you want to analyze.
 
+## Extending ##
+
+To add a new script which will be ran, simply add
+a new logparser query to `parser-scripts` and save it
+with a .sql extension
+
 ## Logparser tutorials ##
 
 http://linuxlore.blogspot.com/2006/11/howto-use-microsofts-logparser-to.html
