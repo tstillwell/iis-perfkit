@@ -1,6 +1,6 @@
 # iis-perfkit
 
-Runs multiple iis logparser queries at once.
+Runs multiple iis logparser queries
 
 Requires the logparser tool. Download here
 
