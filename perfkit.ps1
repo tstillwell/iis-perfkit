@@ -8,4 +8,3 @@ GET-ChildItem parser-scripts |
     $cmdargs = "-i IISW3C file:parser-scripts/$script?log_path=$log_path"
     Start-Process -FilePath ".\Logparser.exe " -ArgumentList "$cmdargs" -NoNewWindow -Wait
   }
-  
