@@ -5,6 +5,6 @@ GET-ChildItem -Path parser-scripts\*.sql |
     # filename of the current script
     $script = "$_"
     # logparser CLI arguments - see logparser help for more info
-    $cmdargs = "-i IISW3C file:parser-scripts/$script?log_path=$log_path"
+    $cmdargs = "-i IISW3C file:$($script)?log_path=$log_path"
     Start-Process -FilePath ".\Logparser.exe " -ArgumentList "$cmdargs" -NoNewWindow -Wait
   }
