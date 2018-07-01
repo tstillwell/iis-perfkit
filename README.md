@@ -28,9 +28,9 @@ with a .sql extension.
 The existing queries are a starting point, and can be modified
 to suit your analysis needs.
 
-See links below for an intro to logparser
-
 ## Logparser tutorials ##
+
+See links below for an intro to logparser
 
 http://linuxlore.blogspot.com/2006/11/howto-use-microsofts-logparser-to.html
 
