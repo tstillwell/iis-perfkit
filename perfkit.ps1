@@ -1,4 +1,4 @@
-GET-ChildItem -Path parser-scripts\*.sql |
+GET-ChildItem -Path parser-scripts\*.sql | # all sql files in parser-scripts
   ForEach-Object {
     # location of logfiles to query
     $log_path = "c:\inetpub\logs\LogFiles\W3SVC1\*"
