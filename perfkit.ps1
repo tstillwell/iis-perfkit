@@ -1,3 +1,6 @@
+# perfkit.ps1 - runs logparser sql files
+# MIT LICENSE https://github.com/tstillwell/iis-perfkit
+# See README for more info
 GET-ChildItem -Path parser-scripts\*.sql | # all sql files in parser-scripts
   ForEach-Object {
     # location of logfiles to query
