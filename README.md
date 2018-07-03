@@ -14,7 +14,7 @@ In powershell, run
 perfkit.ps1
 `
 
-to run all queries in parser-scripts
+to run each query file in parser-scripts
 
 Change the `$log_path` value in `perfkit.ps1`
 to point to the logs you want to analyze.
