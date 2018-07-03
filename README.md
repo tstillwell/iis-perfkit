@@ -28,6 +28,8 @@ with a .sql extension.
 Each query should use the %log_path% variable in the 'from' clause
 of each query to specify the IIS logs to parse.
 
+`FROM %log_path%`
+
 The existing queries are a starting point, and can be modified
 to suit your analysis needs.
 
