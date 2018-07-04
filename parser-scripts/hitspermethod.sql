@@ -1,4 +1,5 @@
 --  Number of hits per Method (GET, POST, etc)
+-- https://blogs.msdn.microsoft.com/carlosag/2010/03/25/analyze-your-iis-log-files-favorite-log-parser-queries/
 SELECT 
     cs-method As Method, 
     COUNT(*) As Hits 
