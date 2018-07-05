@@ -35,6 +35,9 @@ FROM %log_path%
 The existing queries are a starting point, and can be modified
 to suit your analysis needs.
 
+The logparser command arguments are in `perfkit.ps1`, and
+can be changed.
+
 ## Logparser tutorials ##
 
 See links below for an intro to logparser
