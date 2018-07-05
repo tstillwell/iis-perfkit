@@ -21,8 +21,8 @@ to point to the logs you want to analyze.
 
 ## Extending ##
 
-To add a new script which will be ran, simply add
-a new logparser query to `parser-scripts` and save it
+Add your own sql script by saving
+a logparser query to `parser-scripts`
 with a .sql extension.
 
 Each query should use the %log_path% variable in the 'from' clause
