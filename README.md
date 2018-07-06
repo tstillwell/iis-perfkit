@@ -17,7 +17,8 @@ perfkit.ps1
 to run each query file in `parser-scripts`
 
 Change the `$log_path` value in `perfkit.ps1`
-to point to the logs you want to analyze.
+to point to the logs you want to analyze. Directory
+wildcards are supported.
 
 ## Extending ##
 
