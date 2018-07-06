@@ -39,6 +39,8 @@ to suit your analysis needs.
 The logparser command arguments are in `perfkit.ps1`, and
 can be changed.
 
+Additional variables can be added via script parameters
+
 ## Logparser tutorials ##
 
 See links below for an intro to logparser
