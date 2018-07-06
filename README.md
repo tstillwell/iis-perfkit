@@ -37,7 +37,8 @@ The existing queries are a starting point, and can be modified
 to suit your analysis needs.
 
 The logparser command arguments are in `perfkit.ps1`, and
-can be changed.
+can be changed. For a full list of logparser CLI switches,
+check the logparser.exe command help.
 
 Additional variables can be added via script parameters
 
