@@ -5,7 +5,7 @@ SELECT
     COUNT(*) AS Hits 
 FROM %log_path%
 WHERE date>'2010-03-01' and date<'2010-04-01' 
-Group By Hour 
+GROUP BY Hour 
 --  Date         Hour        Hits
 --  3/3/2010     10:00:00    33
 --  3/3/2010     11:00:00    5
