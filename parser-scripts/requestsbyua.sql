@@ -1,5 +1,5 @@
 --  List all the requests by user agent
--- https://blogs.msdn.microsoft.com/carlosag/2010/03/25/analyze-your-iis-log-files-favorite-log-parser-queries/
+-- https://blogs.msdn.microsoft.com/carlosag/
 SELECT 
     cs(User-Agent) As UserAgent, 
     COUNT(*) as Hits 

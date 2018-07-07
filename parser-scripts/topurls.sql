@@ -1,5 +1,5 @@
 -- Top 25 URLs
--- https://blogs.msdn.microsoft.com/carlosag/2010/03/25/analyze-your-iis-log-files-favorite-log-parser-queries/
+-- https://blogs.msdn.microsoft.com/carlosag/
 SELECT TOP 25 
     cs-uri-stem as Url, 
     COUNT(*) As Hits 

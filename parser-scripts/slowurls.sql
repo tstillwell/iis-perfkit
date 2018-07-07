@@ -1,5 +1,5 @@
 --  Find the Slowest 25 URLs (in average) in the site
--- https://blogs.msdn.microsoft.com/carlosag/2010/03/25/analyze-your-iis-log-files-favorite-log-parser-queries/
+-- https://blogs.msdn.microsoft.com/carlosag/
 SELECT TOP 25 
     cs-uri-stem as URL, 
     MAX(time-taken) As Max, 

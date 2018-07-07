@@ -1,5 +1,5 @@
 -- Number of hits per hour for the month of March
--- https://blogs.msdn.microsoft.com/carlosag/2010/03/25/analyze-your-iis-log-files-favorite-log-parser-queries/
+-- https://blogs.msdn.microsoft.com/carlosag/
 SELECT 
     QUANTIZE(TO_LOCALTIME(TO_TIMESTAMP(date, time)), 3600) AS Hour, 
     COUNT(*) AS Hits 

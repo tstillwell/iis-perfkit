@@ -1,5 +1,5 @@
 -- Number of Hits per Client IP, including a Reverse DNS lookup (SLOW)
--- https://blogs.msdn.microsoft.com/carlosag/2010/03/25/analyze-your-iis-log-files-favorite-log-parser-queries/
+-- https://blogs.msdn.microsoft.com/carlosag/
 SELECT 
     c-ip As Machine, 
     REVERSEDNS(c-ip) As Name, 
