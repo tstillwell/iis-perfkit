@@ -1,13 +1,13 @@
 --  Find the Slowest 25 URLs (in average) in the site
 -- https://blogs.msdn.microsoft.com/carlosag/
 SELECT TOP 25 
-    cs-uri-stem as URL, 
-    MAX(time-taken) As Max, 
-    MIN(time-taken) As Min, 
-    Avg(time-taken) As Average 
+    cs-uri-stem AS URL, 
+    MAX(time-taken) AS Max, 
+    MIN(time-taken) AS Min, 
+    Avg(time-taken) AS Average 
 FROM %log_path%
 GROUP BY URL 
-ORDER By Average DESC 	
+ORDER By Average DESC 
 --  URL                        Max     Min   Average
 --  /Test/Default.aspx       23215   23215     23215
 --  /WebSite/Default.aspx     5757     752      4178
