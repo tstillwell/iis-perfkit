@@ -1,11 +1,11 @@
 -- Top 25 URLs
 -- https://blogs.msdn.microsoft.com/carlosag/
 SELECT TOP 25 
-    cs-uri-stem as Url, 
-    COUNT(*) As Hits 
+    cs-uri-stem AS Url, 
+    COUNT(*) AS Hits 
 FROM %log_path%
 GROUP BY cs-uri-stem 
-ORDER By Hits DESC 	
+ORDER BY Hits DESC 	
 --  Url       Hits
 --  /WebResource.axd     10318
 --  /favicon.ico     8523
