@@ -5,7 +5,7 @@ SELECT TOP 25
     COUNT(*) As Hits 
 FROM %log_path%
 GROUP BY Extension 
-ORDER BY Hits DESC 	
+ORDER BY Hits DESC 
 --  Extension   Hits
 --  gif         52127
 --  bmp         20377
