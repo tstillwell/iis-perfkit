@@ -17,7 +17,8 @@ perfkit.ps1
 to run each query file in `parser-scripts`
 
 Change the `$log_path` value in `perfkit.ps1`
-to point to the logs you want to analyze. 
+to point to the logs you want to analyze.
+
 Directory wildcards are supported.
 
 ## Extending ##
@@ -37,7 +38,9 @@ The existing queries are a starting point, and can be modified
 to suit your analysis needs.
 
 The logparser command arguments are in `perfkit.ps1`, and
-can be changed. For a full list of logparser CLI switches,
+can be changed.
+
+For a full list of logparser CLI switches,
 check the logparser.exe command help.
 
 Additional variables can be added via script parameters
