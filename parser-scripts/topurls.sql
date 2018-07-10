@@ -5,7 +5,7 @@ SELECT TOP 25
     COUNT(*) AS Hits 
 FROM %log_path%
 GROUP BY cs-uri-stem 
-ORDER BY Hits DESC 	
+ORDER BY Hits DESC 
 --  Url       Hits
 --  /WebResource.axd     10318
 --  /favicon.ico     8523
