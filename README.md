@@ -31,6 +31,7 @@ Any query can use the %log_path% variable in the 'from' clause
 to specify the IIS logs to parse.
 
 `
+SELECT *
 FROM %log_path%
 `
 
