@@ -11,7 +11,7 @@ Once downloaded, place logparser.exe in the project directory then
 In powershell, run
 
 `
-perfkit.ps1
+> perfkit.ps1
 `
 
 to run each query file in `parser-scripts`
