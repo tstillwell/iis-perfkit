@@ -39,7 +39,11 @@ The existing queries are a starting point, and can be modified
 to suit your analysis needs.
 
 The logparser command arguments are in `perfkit.ps1`, and
-can be changed.
+can be changed by altering the cmdargs variable.
+
+`
+$cmdargs = "-i IISW3C file:$($script)?log_path=$log_path"
+`
 
 For a full list of logparser CLI switches,
 check the logparser.exe command help.
