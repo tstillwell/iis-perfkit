@@ -1,6 +1,6 @@
---  Find the Slowest 25 URLs (in average) in the site
+--  Find the Slowest URLs (in average) in the site
 -- https://blogs.msdn.microsoft.com/carlosag/
-SELECT TOP 25 
+SELECT
     cs-uri-stem AS URL, 
     MAX(time-taken) AS Max, 
     MIN(time-taken) AS Min, 
