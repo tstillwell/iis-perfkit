@@ -1,4 +1,4 @@
---  List all the requests by user agent
+-- List all the requests by user agent
 -- https://blogs.msdn.microsoft.com/carlosag/
 SELECT 
     cs(User-Agent) AS UserAgent, 
