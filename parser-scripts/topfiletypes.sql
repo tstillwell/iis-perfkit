@@ -1,6 +1,6 @@
--- Top 25 File Types
+-- Top File Types by hits
 -- https://blogs.msdn.microsoft.com/carlosag/
-SELECT TOP 25 
+SELECT
     EXTRACT_EXTENSION(cs-uri-stem) AS Extension, 
     COUNT(*) As Hits 
 FROM %log_path%
