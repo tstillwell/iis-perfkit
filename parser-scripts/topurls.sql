@@ -1,6 +1,6 @@
--- Top 25 URLs
+-- Top URLs by hit count
 -- https://blogs.msdn.microsoft.com/carlosag/
-SELECT TOP 25 
+SELECT
     cs-uri-stem AS Url, 
     COUNT(*) AS Hits 
 FROM %log_path%
