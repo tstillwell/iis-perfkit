@@ -1,4 +1,4 @@
---  Number of hits per Method (GET, POST, etc)
+-- Number of hits per Method (GET, POST, etc)
 -- https://blogs.msdn.microsoft.com/carlosag/
 SELECT 
     cs-method AS Method, 
