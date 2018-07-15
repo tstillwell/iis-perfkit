@@ -6,6 +6,8 @@ Requires the logparser tool. Download here
 
 https://www.microsoft.com/en-us/download/details.aspx?id=24659
 
+__________________________________________________________________
+
 Once downloaded, place logparser.exe in the project directory then
 
 In powershell, run
