@@ -1,8 +1,8 @@
 -- List all the requests by user agent
 -- https://blogs.msdn.microsoft.com/carlosag/
 SELECT
-    cs(User-Agent) AS UserAgent,
-    COUNT(*) AS Hits
+  cs(User-Agent) AS UserAgent,
+  COUNT(*) AS Hits
 FROM %log_path%
 GROUP BY UserAgent
 ORDER BY Hits DESC

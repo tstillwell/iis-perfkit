@@ -1,8 +1,8 @@
 -- Number of hits per Method (GET, POST, etc)
 -- https://blogs.msdn.microsoft.com/carlosag/
 SELECT
-    cs-method AS Method,
-    COUNT(*) AS Hits
+  cs-method AS Method,
+  COUNT(*) AS Hits
 FROM %log_path%
 GROUP BY Method
 --  Method    Hits

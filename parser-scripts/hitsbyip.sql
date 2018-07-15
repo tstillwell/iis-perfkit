@@ -1,9 +1,9 @@
 -- Number of Hits per Client IP, including a Reverse DNS lookup (SLOW)
 -- https://blogs.msdn.microsoft.com/carlosag/
 SELECT
-    c-ip AS Machine,
-    REVERSEDNS(c-ip) AS Name,
-    COUNT(*) AS Hits
+  c-ip AS Machine,
+  REVERSEDNS(c-ip) AS Name,
+  COUNT(*) AS Hits
 FROM %log_path%
 GROUP BY Machine ORDER BY Hits DESC
 -- Machine      Name            Hits

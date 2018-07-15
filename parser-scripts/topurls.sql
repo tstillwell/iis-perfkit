@@ -1,8 +1,8 @@
 -- Top URLs by hit count
 -- https://blogs.msdn.microsoft.com/carlosag/
 SELECT
-    cs-uri-stem AS Url,
-    COUNT(*) AS Hits
+  cs-uri-stem AS Url,
+  COUNT(*) AS Hits
 FROM %log_path%
 GROUP BY cs-uri-stem
 ORDER BY Hits DESC

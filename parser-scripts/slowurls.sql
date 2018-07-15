@@ -1,10 +1,10 @@
 --  Find the Slowest URLs (in average) in the site
 -- https://blogs.msdn.microsoft.com/carlosag/
 SELECT
-    cs-uri-stem AS URL,
-    MAX(time-taken) AS Max,
-    MIN(time-taken) AS Min,
-    Avg(time-taken) AS Average
+  cs-uri-stem AS URL,
+  MAX(time-taken) AS Max,
+  MIN(time-taken) AS Min,
+  Avg(time-taken) AS Average
 FROM %log_path%
 GROUP BY URL
 ORDER By Average DESC
