@@ -3,7 +3,7 @@
 Runs multiple logparser sql queries/scripts
 on IIS log files to provide performance intel
 
-Requires the logparser tool. Download here
+Needs the logparser CLI tool. Download here
 
 https://www.microsoft.com/en-us/download/details.aspx?id=24659
 
