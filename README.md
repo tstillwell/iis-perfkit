@@ -14,7 +14,6 @@ In powershell, run
 
 `> perfkit.ps1`
 
-
 to run each query file in `parser-scripts`
 
 Change the `$log_path` value in `perfkit.ps1`
