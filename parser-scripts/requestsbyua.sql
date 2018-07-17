@@ -1,4 +1,4 @@
--- List all the requests by user agent
+-- all requests by user agent logparser sql query
 -- https://blogs.msdn.microsoft.com/carlosag/
 SELECT
   cs(User-Agent) AS UserAgent,
