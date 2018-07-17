@@ -1,4 +1,4 @@
---  Find the Slowest URLs (in average) in the site
+-- Slowest URLs (on average) logparser sql query
 -- https://blogs.msdn.microsoft.com/carlosag/
 SELECT
   cs-uri-stem AS URL,
