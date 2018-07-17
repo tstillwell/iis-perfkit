@@ -1,4 +1,4 @@
--- Top URLs by hit count
+-- Top URLs by hit count logparser sql query
 -- https://blogs.msdn.microsoft.com/carlosag/
 SELECT
   cs-uri-stem AS Url,
