@@ -1,4 +1,4 @@
--- Top File Types by hits
+-- Top File Types by hits logparser sql query
 -- https://blogs.msdn.microsoft.com/carlosag/
 SELECT
   EXTRACT_EXTENSION(cs-uri-stem) AS Extension,
