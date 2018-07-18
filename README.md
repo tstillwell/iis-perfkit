@@ -23,7 +23,7 @@ Directory & filename wildcards are supported.
 
 ## Extending ##
 
-Add your own sql script by saving
+Add your own  custom sql script(s) by saving
 a logparser query to `parser-scripts`
 with a .sql extension.
 
