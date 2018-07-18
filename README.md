@@ -28,7 +28,7 @@ a logparser query to `parser-scripts`
 with a .sql extension.
 
 Any query can use the %log_path% variable in the 'from' clause
-to specify the IIS logs to parse.
+to specify the IIS log files to parse.
 
 `
 SELECT *
