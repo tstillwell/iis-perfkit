@@ -54,7 +54,7 @@ Additional variables can be added via script parameters
 
 ## Logparser tutorials ##
 
-See links below for an intro to logparser
+See links below for more info on parsing IIS log files with logparser
 
 http://linuxlore.blogspot.com/2006/11/howto-use-microsofts-logparser-to.html
 
