@@ -47,7 +47,7 @@ This will change the way the logparser executable is called.
 $cmdargs = "-i IISW3C file:$($script)?log_path=$log_path"
 `
 
-For a full list of logparser CLI switches,
+For a full list of available logparser CLI switches,
 check the logparser.exe command help.
 
 Additional variables can be added via script parameters
