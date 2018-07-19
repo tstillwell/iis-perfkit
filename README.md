@@ -51,7 +51,8 @@ $cmdargs = "-i IISW3C file:$($script)?log_path=$log_path"
 For a full list of available logparser CLI switches,
 check the logparser.exe command help.
 
-Additional variables can be added via script parameters
+Arbitrary variables can also be passed into the scripts by following
+this convention.
 
 ## Logparser tutorials ##
 
