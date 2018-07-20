@@ -1,6 +1,7 @@
 # iis-perfkit
 
-Runs multiple logparser sql queries/scripts
+Powershell admin tool to run
+multiple logparser sql queries/scripts
 on IIS log files to provide performance intel
 
 Needs the logparser CLI tool. Download here
