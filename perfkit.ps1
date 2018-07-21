@@ -6,8 +6,7 @@
 GET-ChildItem -Path parser-scripts\*.sql | # all sql files in parser-scripts
   ForEach-Object {
     $log_path = "c:\inetpub\logs\LogFiles\W3SVC1\*"
-    # filename of the current script
-    $script = "$_"
+    $script = "$_"  # filename of the current script
     # logparser CLI arguments - see logparser help for more info
     $cmdargs = "-i IISW3C file:$($script)?log_path=$log_path"
     # run each logparser command
