@@ -4,7 +4,7 @@
 # usage: > perfkit.ps1
 # See README for more info
 GET-ChildItem -Path parser-scripts\*.sql | # all sql scripts in parser-scripts
-  ForEach-Object {
+  ForEach-Object { # build command for each script and execute
     $log_path = "c:\inetpub\logs\LogFiles\W3SVC1\*"
     $script = "$_" # filename of the current script
     $cmdargs = "-i IISW3C file:$($script)?log_path=$log_path" # logparser CLI arguments
